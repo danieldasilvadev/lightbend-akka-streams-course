@@ -1,6 +1,6 @@
-initial-state
+working-with-sinks
 
-# Exercise 0 > Initial State
+# Exercise 2 > Working with Sinks
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions.
 

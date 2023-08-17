@@ -1,0 +1,36 @@
+[debug] Acquiring lock on file C:\Users\User\devel\lightbend-akka-streams-course\project\target\.sbt-compilation-infos\exercises-test\.sbt-idea-lock ...
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\AuditorTest.scala:11:25: not found: type Auditor
+[error]       val auditor = new Auditor
+[error]                         ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\AuditorTest.scala:18:25: not found: type Auditor
+[error]       val auditor = new Auditor
+[error]                         ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\AuditorTest.scala:29:25: not found: type Auditor
+[error]       val auditor = new Auditor
+[error]                         ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\AuditorTest.scala:37:25: not found: type Auditor
+[error]       val auditor = new Auditor
+[error]                         ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\AuditorTest.scala:45:25: not found: type Auditor
+[error]       val auditor = new Auditor
+[error]                         ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\BodyShopTest.scala:11:26: not found: type BodyShop
+[error]       val bodyShop = new BodyShop(buildTime = 200.millis)
+[error]                          ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\BodyShopTest.scala:11:35: not found: value buildTime
+[error]       val bodyShop = new BodyShop(buildTime = 200.millis)
+[error]                                   ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\EngineShopTest.scala:12:28: not found: type EngineShop
+[error]       val engineShop = new EngineShop(shipmentSize)
+[error]                            ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\EngineShopTest.scala:26:28: not found: type EngineShop
+[error]       val engineShop = new EngineShop(shipmentSize)
+[error]                            ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\PaintShopTest.scala:16:27: not found: type PaintShop
+[error]       val paintShop = new PaintShop(colorSet)
+[error]                           ^
+[error] C:\Users\User\devel\lightbend-akka-streams-course\exercises\src\test\scala\com\lightbend\akkassembly\WheelShopTest.scala:11:27: not found: type WheelShop
+[error]       val wheelShop = new WheelShop
+[error]                           ^
+[error] 11 errors found
+[debug] Releasing lock on file C:\Users\User\devel\lightbend-akka-streams-course\project\target\.sbt-compilation-infos\exercises-test\.sbt-idea-lock.

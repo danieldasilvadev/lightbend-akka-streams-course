@@ -14,11 +14,13 @@ class Factory(bodyShop: BodyShop,
 
   def orderCars(quantity: Int): Future[Seq[Car]] = {
     bodyShop.cars
-      .via(paintShop.paint)
-      .via(engineShop.installEngine)
-      .via(wheelShop.installWheels)
-      .via(upgradeShop.installUpgrades)
-      .via(qualityAssurance.inspect)
+      .via(paintShop.paint.named("paint-stage"))
+      .async
+      .via(engineShop.installEngine.named("install-engine-stage"))
+      .async
+      .via(wheelShop.installWheels.named("install-wheels-stage"))
+      .via(upgradeShop.installUpgrades.named("install-upgrades-stage"))
+      .via(qualityAssurance.inspect.named("inspect-stage"))
       .take(quantity)
       .runWith(Sink.seq)
   }

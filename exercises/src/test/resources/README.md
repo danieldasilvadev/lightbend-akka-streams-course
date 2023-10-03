@@ -1,6 +1,6 @@
-working-with-sinks
+optimize-fusion-with-telemetry
 
-# Exercise 2 > Working with Sinks
+# Exercise 8 > Telemetry
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions.
 

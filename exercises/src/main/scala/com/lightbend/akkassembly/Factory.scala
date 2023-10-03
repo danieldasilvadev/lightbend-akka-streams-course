@@ -19,6 +19,7 @@ class Factory(bodyShop: BodyShop,
       .via(engineShop.installEngine.named("install-engine-stage"))
       .async
       .via(wheelShop.installWheels.named("install-wheels-stage"))
+      .async
       .via(upgradeShop.installUpgrades.named("install-upgrades-stage"))
       .via(qualityAssurance.inspect.named("inspect-stage"))
       .take(quantity)
